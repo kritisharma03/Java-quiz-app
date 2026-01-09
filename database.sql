@@ -1,0 +1,11 @@
+CREATE DATABASE quiz_db;
+USE quiz_db;
+
+CREATE TABLE scores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    roll_no VARCHAR(50) NOT NULL,
+    score INT NOT NULL,
+    total_questions INT NOT NULL,
+    date_taken TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
