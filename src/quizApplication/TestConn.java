@@ -1,11 +1,10 @@
+package quizApplication;
 
 
 // import quizApplication.DBConnection;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
-
-import quizApplication.DBConnection;
 
 public class TestConn {
     public static void main(String[] args) {

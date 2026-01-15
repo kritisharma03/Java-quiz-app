@@ -27,3 +27,10 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+# Java compiled files
+*.class
+
+# Build / output folders
+out/
